@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #fff;
+}
+a{
+    text-decoration: none;
+  
+}
+
+ul{
+    list-style: none;
+}
+
+
+.container{
+   max-width:1140px;
+   width: 100%;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.header__nav{
+    background: rgb(212, 206, 206);
+    margin-top: -20px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.logo{
+    padding: 20px 0;
+}
+
+
+
+.nav__burger{
+    color: #000;
+    background: transparent;
+    border: none;
+    font-size: 50px;
+    line-height: 60px;
+    display: none;
+    padding: 20px 15px;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu__link{
+    padding: 10px 0 10px 15px;
+    color: #3A3838;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    transition:0.5s;
+}
+
+.menu__link:hover{
+    color: #EF4423;
+}
+.footer__link:hover{
+    color: #EF4423;
+}
+
+
+
+.content{
+    width: 100%;
+}
+
+/* Блок с новостными картами */
+
+.news {
+    display: flex; 
+    flex-wrap: wrap;
+    margin-top: 36px;
+}
+
+
+.card{
+     max-width:  25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h2{
+    font-size: 19px;
+    color: #fff;
+    padding:  8px  15px;
+}
+
+.card p{
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    padding:0 15px 8px 15px;
+}
+
+.card img{
+    width: 100%;
+    flex-grow: 1;
+    object-fit: cover;
+}
+
+.midwestern{
+    background: #B71C1C;
+    padding-bottom: 7px;
+}
+
+.zambian{
+    background: #6A1B9A;
+    padding-top: 7px;
+}
+
+.colin{
+    background: #303F9F;
+    padding-bottom: 7px;
+}
+
+.working{
+    background:  #00695C;
+    padding-top: 7px;
+}
+
+ h3{
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+/* Блок о планшетах */
+
+
+.planshets  {
+ background:#EDEDED;
+ width: 100%;
+ margin: 60px 0 50px;
+}
+
+.planshets img{
+    object-fit: cover;
+    max-width: 555px;
+    width: 100%;
+    margin-left: -15px;
+}
+
+
+.planshets .container{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+
+.words{ 
+    max-width: 540px;
+    width: 100%;
+}
+.words h3{
+    margin: 20px 0 30px;
+    font-size: 22px;
+    color: #3A3838;
+}
+.words p{
+    font-size: 18px;
+    color: #686868;
+    margin-bottom: 31px;
+}
+
+/* FOOTER */
+
+footer{
+    background: #3A3838;
+    padding-top: 28px;
+    padding-bottom: 29px;
+}
+
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+
+
+.footer__menu{
+    display: flex;
+}
+
+.footer__link{
+    padding: 10px 0 10px 15px;
+    transition: 500ms;
+    color: #fff;
+}
+
